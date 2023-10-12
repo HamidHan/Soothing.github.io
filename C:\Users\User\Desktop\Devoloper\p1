@@ -1,1 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Şarkı Sitesi</title>
+    <style>
+        /* Temel CSS stilleri burada */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #a8a8a8;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
+        nav {
+            background-color: #444;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+        section {
+            padding: 20px;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
+        .song-list {
+            list-style-type: none;
+            padding: 0;
+        }
+        .song-list li {
+            margin: 10px 0;
+            border: 1px solid #ddd;
+            border-radius: 30px;
+            padding: 10px;
+            background-color: #fff;
+            display: flex;
+            justify-content: space-between;
+        }
+        audio {
+            width: 100%;
+            margin-top: 10px;
+        }
+        .ticed a
+        {
+            text-decoration: none;
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+            transition: 1s;
+        }
+        .ticed a:hover
+        {
+            transition: 1s;
+            text-decoration: none;
+            color: red;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+</head>
+<body bgcolor="black">
+    <header>
+        <h1>Soothing</h1>
+    </header>
+    <nav>
+        <ul class="ticed">
+            <li><a href="#">Anasayfa</a></li>
+            <li><a href="#">Şarkı Listesi</a></li>
+            <li><a href="#">Hakkımızda</a></li>
+            <li><a href="#">İletişim</a></li>
+        </ul>
+    </nav>
+    <section>
+        <h2>Deneme 004</h2>
+        <ul class="song-list">
+            <li>
+                <div>
+                    <h3>Bak  <br>......................</h3>
+                    <p>Cem Kısmet</p>
+                </div>
+                <audio controls>
+                    <source src="sarkilar/Cem Kısmet - Bak.mp3" type="audio/mpeg">
+                    Tarayıcınız audio elementini desteklemiyor.
+                </audio>
+            </li>
+            <li>
+                <div>
+                    <h3>Haram Geceler <br>......................</h3>
+                    <p>Cem Kısmet</p>
+                </div>
+                <audio controls>
+                    <source src="sarkilar/Cem Kısmet - Haram Geceler.mp3" type="audio/mpeg">
+                    Tarayıcınız audio elementini desteklemiyor.
+                </audio>
+            </li>
+            <li>
+                <div>
+                    <h3>Atşeten Gömlek <br>......................</h3>
+                    <p>Sagopa Kajmer</p>
+                </div>
+                <audio controls>
+                    <source src="sarkilar/Ateşten Gömlek(MP3_320K).mp3" type="audio/mpeg">
+                    Tarayıcınız audio elementini desteklemiyor.
+                </audio>
+            </li>
+            <li>
+                <div>
+                    <h3>Emi <br>......................</h3>
+                    <p>Yıldız Tilbe</p>
+                </div>
+                <audio controls>
+                    <source src="sarkilar/Yıldız Tilbe - Emi (Official Video)(MP3_320K).mp3" type="audio/mpeg">
+                    Tarayıcınız audio elementini desteklemiyor.
+                </audio>
+            </li>
+            <!-- Daha fazla şarkı eklemek için benzer bloklar ekleyebilirsiniz -->
+        </ul>
+    </section>
+    <footer>
+        <p>Telif Hakkı © 2023. l3hmd</p>
+    </footer>
+</body>
+</html>
 
